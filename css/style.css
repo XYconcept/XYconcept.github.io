@@ -1,0 +1,552 @@
+@font-face {
+  font-family: 'brandon_grotesque_regularRg';
+  src: url("../fonts/brandon_reg-webfont.eot");
+  src: url("../fonts/brandon_reg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg-webfont.woff2") format("woff2"), url("../fonts/brandon_reg-webfont.woff") format("woff"), url("../fonts/brandon_reg-webfont.ttf") format("truetype"), url("../fonts/brandon_reg-webfont.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesquelight';
+  src: url("../fonts/brandon_light-webfont.eot");
+  src: url("../fonts/brandon_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_light-webfont.woff2") format("woff2"), url("../fonts/brandon_light-webfont.woff") format("woff"), url("../fonts/brandon_light-webfont.ttf") format("truetype"), url("../fonts/brandon_light-webfont.svg#brandon_grotesquelight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesquemedium';
+  src: url("../fonts/brandon_med-webfont.eot");
+  src: url("../fonts/brandon_med-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med-webfont.woff2") format("woff2"), url("../fonts/brandon_med-webfont.woff") format("woff"), url("../fonts/brandon_med-webfont.ttf") format("truetype"), url("../fonts/brandon_med-webfont.svg#brandon_grotesquemedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro";
+  font-weight: 300; }
+
+body {
+  margin: 0; }
+
+p {
+  font-size: 18px; }
+
+/* nav */
+nav {
+  text-align: right;
+  margin-right: 60px; }
+  nav a {
+    transition: 200ms;
+    text-decoration: none;
+    font-family: "brandon_grotesquemedium";
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: solid 2px rgba(255, 255, 255, 0);
+    border-bottom: solid 2px rgba(255, 255, 255, 0); }
+    nav a:hover {
+      transition: 200ms;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border-top: solid 2px white;
+      border-bottom: solid 2px white; }
+  nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 40px 0 40px; }
+
+.c-hamburger {
+  display: none; }
+
+/* header */
+header {
+  background-color: #345470;
+  height: 30vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  header nav {
+    position: absolute;
+    right: 0; }
+
+.home-header {
+  height: 50vh; }
+
+.careers-header {
+  background-color: #DD9E74; }
+
+.probability-header {
+  background-color: #BE5A5A; }
+
+.geometry-header {
+  background-color: #6FBC9D; }
+
+.arithmetic-header {
+  background-color: #2C73A0; }
+
+.quiz-header {
+  background-color: #9473CD; }
+
+.logo-icon {
+  padding-right: 10px;
+  height: 100px;
+  width: 88px; }
+
+.home-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px; }
+
+h1 {
+  font-family: "brandon_grotesquemedium";
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  text-align: center;
+  font-size: 60px; }
+
+/* about */
+.home h2.sub-heading {
+  font-family: "brandon_grotesquemedium";
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+.home p {
+  text-align: center;
+  max-width: 750px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  line-height: 28px;
+  font-size: 18px; }
+.home #third {
+  padding-bottom: 90px; }
+.home .black-line {
+  background-color: black;
+  height: 1px;
+  width: 1200px;
+  margin: 0 auto; }
+
+.sub-heading {
+  font-size: 24px;
+  letter-spacing: 3px;
+  padding: 70px; }
+
+/* concepts */
+.concepts {
+  padding-bottom: 150px; }
+  .concepts h3 {
+    font-family: "brandon_grotesquemedium";
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px; }
+  .concepts .box-wrapper {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .concepts .box-wrapper .box:nth-child(2) ul {
+      margin-top: 15px; }
+      .concepts .box-wrapper .box:nth-child(2) ul li {
+        margin-top: 10px; }
+    .concepts .box-wrapper .box:nth-child(1) ul {
+      margin-top: 10px; }
+  .concepts .box {
+    width: 250px;
+    min-height: 425px;
+    margin: 10px;
+    padding: 25px;
+    border: solid 2px black; }
+    .concepts .box .box-content {
+      height: 350px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black; }
+      .concepts .box .box-content li {
+        list-style-type: none;
+        position: relative;
+        margin-right: 10px;
+        font-size: 18px; }
+        .concepts .box .box-content li:before {
+          content: "";
+          position: absolute;
+          top: 8px;
+          left: -24px;
+          width: 20px;
+          height: 20px;
+          background-image: url("../img/check.png");
+          background-repeat: no-repeat; }
+      .concepts .box .box-content ul {
+        margin-left: 30px; }
+    .concepts .box a {
+      background-color: white;
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      color: black;
+      font-family: "brandon_grotesque_regularRg";
+      width: 145px;
+      height: 45px;
+      border: black solid 2px;
+      margin: 0 auto;
+      margin-top: 20px;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px; }
+  .concepts .common-box {
+    background-color: #D7EAF6; }
+  .concepts .geo-box {
+    background-color: #CCF8E6; }
+  .concepts .prob-box {
+    background-color: #F5C2C2; }
+  .concepts li {
+    letter-spacing: .3px;
+    line-height: 23px;
+    text-align: center;
+    padding-bottom: 25px; }
+  .concepts ul {
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 183px;
+    margin: 0 auto; }
+
+#contact-title {
+  padding-bottom: 30px; }
+
+form {
+  max-width: 1000px;
+  margin: 0 auto; }
+  form input {
+    border: #8E8E8E solid 1px;
+    font-family: "Source Sans Pro";
+    font-weight: 200;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    margin: 20px; }
+    form input:placeholder-shown {
+      font-family: "Source Sans Pro";
+      font-weight: 200;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding-left: 5px; }
+  form textarea {
+    border: #8E8E8E solid 1px;
+    font-family: "Source Sans Pro";
+    font-weight: 200;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    margin: 22px; }
+    form textarea:placeholder-shown {
+      font-family: "Source Sans Pro";
+      font-weight: 200;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding-left: 5px; }
+  form .name {
+    width: 430px;
+    height: 30px; }
+  form .email {
+    width: 430px;
+    height: 30px; }
+  form .message {
+    width: 900px;
+    height: 200px; }
+  form .send {
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 70px; }
+
+/* common math */
+.page-title {
+  font-family: "brandon_grotesquemedium";
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-size: 24px; }
+
+.intro #description {
+  letter-spacing: 1px;
+  max-width: 500px;
+  line-height: 24px; }
+.intro #truck {
+  width: 268px;
+  height: 147px; }
+.intro #clock {
+  width: 140px;
+  height: 117px;
+  position: absolute;
+  top: -44px;
+  left: 154px; }
+.intro #blue-sub-heading {
+  background-color: #86B5D3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px; }
+.intro .truck-wrapper {
+  margin-left: 92px;
+  position: relative; }
+
+.section-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px; }
+
+.timeline {
+  max-width: 1000px;
+  margin: 0 auto; }
+  .timeline .timeline-intro {
+    max-width: 550px;
+    text-align: center;
+    margin: 50px auto;
+    letter-spacing: 1px;
+    line-height: 24px; }
+
+.section-row > img {
+  margin-left: 170px;
+  margin-top: 40px; }
+.section-row p {
+  max-width: 450px;
+  letter-spacing: .5px;
+  line-height: 24px; }
+.section-row h3 {
+  letter-spacing: 1px; }
+
+/* Geometry */
+.basic {
+  height: 216px;
+  background-color: #4B9678;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 90px; }
+  .basic p {
+    max-width: 726px;
+    letter-spacing: .5px; }
+
+#protractor {
+  margin-top: 30px;
+  margin-bottom: 100px; }
+
+#lines {
+  margin-top: 30px;
+  margin-bottom: 100px; }
+
+.geometry-wrapper {
+  max-width: 1000px;
+  margin: 0 auto; }
+  .geometry-wrapper p {
+    max-width: 475px; }
+
+/* Probability */
+.probability img {
+  width: 104px;
+  height: 160px; }
+.probability p {
+  max-width: 600px; }
+
+.probability-wrapper {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto; }
+  .probability-wrapper > div {
+    max-width: 474px;
+    margin: 15px 30px 15px 30px; }
+  .probability-wrapper .disease img {
+    width: 238px;
+    height: 191px;
+    margin-top: 50px; }
+  .probability-wrapper .medical img {
+    width: 230px;
+    height: 206px;
+    margin-top: 50px; }
+  .probability-wrapper .weather img {
+    width: 400px;
+    height: 129px;
+    margin-top: 50px; }
+  .probability-wrapper div {
+    text-align: center;
+    margin-bottom: 100px; }
+    .probability-wrapper div p {
+      text-align: left;
+      letter-spacing: .5px; }
+    .probability-wrapper div h3 {
+      text-align: left; }
+
+/* Career */
+.career {
+  max-width: 1200px;
+  margin: 0 auto; }
+  .career p {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    letter-spacing: .5px;
+    line-height: 23px; }
+  .career .careers-image-wrapper {
+    text-align: center;
+    margin-bottom: 200px; }
+  .career #bar-graphs {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+
+/* quiz */
+.button-wrapper {
+  min-width: 100%;
+  text-align: center; }
+
+#quizBox {
+  max-width: 80%;
+  margin: 100px auto 200px auto; }
+
+/* footer */
+footer {
+  background-color: #2D2D2D;
+  color: white;
+  text-align: center;
+  margin: 0;
+  height: 120px; }
+  footer a {
+    text-decoration: none;
+    color: white;
+    padding-right: 8px;
+    padding-left: 6px; }
+  footer li {
+    list-style: none;
+    display: inline-block;
+    font-family: "brandon_grotesque_regularRg";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px; }
+    footer li:first-child {
+      margin-top: 40px; }
+  footer p {
+    font-family: "brandon_grotesquelight";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px; }
+
+/* Mobile Styles */
+@media screen and (max-width: 1280px) {
+  .navigation-menu {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: -702px;
+    right: 0;
+    transition: 500ms;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 0;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    z-index: 1;
+    font-size: 30px; }
+    .navigation-menu a {
+      display: block;
+      padding-bottom: 10px;
+      padding-top: 10px; }
+
+  .c-hamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 2;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    font-size: 0;
+    text-indent: -9999px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s; }
+
+  .c-hamburger:focus {
+    outline: none; }
+
+  .c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    right: 10px;
+    height: 7px;
+    background: white; }
+
+  .c-hamburger span::before,
+  .c-hamburger span::after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 7px;
+    background-color: #fff;
+    content: ""; }
+
+  .c-hamburger span::before {
+    top: -18px; }
+
+  .c-hamburger span::after {
+    bottom: -18px; }
+
+  .c-hamburger--htx {
+    background-color: transparent; }
+
+  .c-hamburger--htx span {
+    transition: background 0s 0.3s; }
+
+  .c-hamburger--htx span::before,
+  .c-hamburger--htx span::after {
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0.3s, 0s; }
+
+  .c-hamburger--htx span::before {
+    transition-property: top, transform; }
+
+  .c-hamburger--htx span::after {
+    transition-property: bottom, transform; }
+
+  /* active state, i.e. menu open */
+  .c-hamburger--htx.is-active span {
+    background: none; }
+
+  .c-hamburger--htx.is-active span::before {
+    top: 0;
+    transform: rotate(45deg); }
+
+  .c-hamburger--htx.is-active span::after {
+    bottom: 0;
+    transform: rotate(-45deg); }
+
+  .c-hamburger--htx.is-active span::before,
+  .c-hamburger--htx.is-active span::after {
+    transition-delay: 0s, 0.3s; } }
